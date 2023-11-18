@@ -10,11 +10,11 @@ public class Main {
 
         Scanner inp = new Scanner(System.in);
 
-        System.out.println("Addition: (1) \nSubtraction: (2) \nMultiplication: (3) \nDivision: (4) \nPlease type in your operation choice: ");
+        System.out.print("Addition: (1) \nSubtraction: (2) \nMultiplication: (3) \nDivision: (4) \nPlease type in your operation choice: ");
         choice = inp.nextInt();
-        System.out.println("Please type in your first number:");
+        System.out.print("Please type in your first number:");
         fNum = inp.nextInt();
-        System.out.println("Please type in your second number:");
+        System.out.print("Please type in your second number:");
         sNum = inp.nextInt();
 
         inp.close();

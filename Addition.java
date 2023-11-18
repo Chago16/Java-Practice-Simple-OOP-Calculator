@@ -3,5 +3,4 @@ public class Addition {
         int result = firstNum + secNum;
         return result;
     }
-
 }
